@@ -1,0 +1,100 @@
+Body {
+  text-align: center;
+  background-color: #F8F9FA;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  padding: 5%;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  line-height: 1.5;
+  margin: 0;
+  }
+@media screen and (max-width: 768px) {
+  p { text-align: center;}
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+}
+/* nav bar style*/
+.bg-color {
+  background-color: #C6CFD2;
+}
+/* header style*/
+.container {
+  padding: 7% 7%;
+  background-color: #fffff;
+  margin: 0;
+  max-width: none;
+  position: relative;
+}
+.container#header {
+  padding-bottom: 0;
+}
+
+.img-header-big {
+  position: absolute;
+  width: 20%;
+  bottom: 0;
+  left: 7%;
+
+}
+
+.img-header-small {
+  position: absolute;
+  width: 13%;
+  bottom: 0;
+  left: 28%;
+}
+
+.hrheader {
+  height: 0.5rem;
+  background-color: #000000;
+  margin: 20% 0 0;
+  border-radius: 5px;
+}
+/* what do I do style*/
+.img-whatdoido {
+  width: 30%;
+}
+.floatright {
+  float: right;
+  padding: 5% 0 5% 10%;
+}
+.floatleft {
+  float: left;
+  padding: 5% 10% 5% 0;
+}
+@media screen and (max-width: 768px) {
+  .floatright, .floatleft {float: none; padding: 5% 0 0;}
+}
+.whatdoido-title {
+  text-align: left;
+  padding-left: 0;
+}
+@media screen and (max-width: 768px) {
+  .whatdoido-title {text-align: center;}
+}
+/* contact me style*/
+.paragraph{
+  text-align: center;
+}
+.btn-padding {
+  margin: 5% 2.5% 0;
+}
+/* footer style*/
+.container#footer {
+  padding: 2%;
+  background-color: #C6CFD2;
+}
